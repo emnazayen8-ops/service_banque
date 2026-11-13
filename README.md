@@ -7,22 +7,22 @@
 
 ## 1. Projet serveur (RMIBanque_Server)
 
-![Arborescence serveur](RMIBanque_Server/images/arborescence-serveur.png)
+![Arborescence serveur](images/arborescence-serveur.png)
 
 ## 2. Projet client (RMIBanque_Client)
 
-![Arborescence client](RMIBanque_Server/images/arborescence-client.png)
+![Arborescence client](images/arborescence-client.png)
 
 ## 3. Exécution avec RMI
 
-![ client](RMIBanque_Server/images/console-client.png)
+![ client](images/console-client.png)
 
 ## 4. Utilisation de JNDI
 
 Ajout du fichier `jndi.properties` dans les deux projets. Le serveur utilise `InitialContext.rebind()` et le client `InitialContext.lookup()`.
 
 
-![ client](RMIBanque_Server/images/console-client_JNDI.png)
+![ client](images/console-client_JNDI.png)
 
 
 
